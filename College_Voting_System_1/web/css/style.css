@@ -1,0 +1,423 @@
+
+body#log{ 
+  background:rgb(255, 255, 255); 
+  background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;
+  font-family:"Verdana";
+margin:auto;
+transition: all 0.4s ease;}
+
+
+body#LoginForm{ 
+  background:grey;
+  background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;
+  font-family:"Verdana";
+margin:auto;
+transition: all 0.4s ease;}
+
+body#regform{ 
+  background:lightslategray;
+  background-repeat:no-repeat; background-position:center; background-size:cover; padding:10px;
+  font-family:"Verdana";
+margin:auto;
+transition: all 0.4s ease;}
+
+.form-heading { color:white; font-size:45px;text-align:center;margin-top:100;top:5%;}
+.panel h2{ color:#444444; font-size:18px; margin:0 0 8px 0;}
+.panel p { color:#777777; font-size:18px; margin-bottom:30px; line-height:24px;}
+.login-form .form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border: 1.5px solid #d4d4d4;
+  border-radius: 40px;
+  font-size: 18px;
+  height: 50px;
+  line-height: 50px;
+}
+.main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 40px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 50px 50px 51px;
+  font-size: 18px;
+}
+
+.login-form .form-group {
+  margin-bottom:10px;
+}
+.login-form{ text-align:center;}
+.forgot a {
+  color: #777777;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.login-form  .btn.btn-primary {
+  background: #21E7F6 none repeat scroll 0 0;
+  border-color: #21E7F6;
+  border-radius: 40px;
+  color: #ffffff;
+  font-size: 20px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+  
+}
+.login-form  .btn.btn-primary:hover {
+  background: rgb(111, 245, 255) none repeat scroll 0 0;
+  border-color: #21E7F6;
+  border-radius: 40px;
+  color: #ffffff;
+  font-size: 20px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+  
+}
+.login-form  .btn.btn-primary a{
+  
+  color: #ffffff;
+  font-size: 20px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+  color:rgb(241, 233, 233);
+  
+}
+.login-form  .btn.btn-primary a:hover{
+  
+  color: #ffffff;
+  font-size: 20px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+}
+.forgot {
+  text-align: left; margin-bottom:30px;
+}
+.botto-text {
+  color: #ffffff;
+  font-size: 17px;
+  margin: auto;
+}
+.botto-text a {
+  color:rgb(17, 183, 248);
+  font-size: 17px;
+  margin: auto;
+}
+.botto-text a:hover{
+  color: #ffffff;
+  font-size: 17px;
+  margin: auto;
+  text-decoration: none;
+}
+.login-form .btn.btn-primary.reset {
+  background: #ff9900 none repeat scroll 0 0;
+}
+.back { text-align: left; margin-top:10px;}
+.back a {color: #444444; font-size: 13px;text-decoration: none;}
+
+header#log {
+  background-color:grey;
+  padding:;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius:10px;
+  position:;
+  
+}
+
+header#log a{
+  margin-right: 7%;
+  padding:;
+  
+  align-content: right;
+  color:rgb(255, 255, 255);
+  font-size:30px;
+  align-self: auto;
+}
+header#log a:hover{
+  
+  border:2px soid whitesmoke;
+  text-align: right;
+  color:red;
+  font-size:30px;
+  align-self: auto;
+}
+header#log p{
+  text-align: right;
+  color:rgb(255, 255, 255);
+  font-size:30px;
+  align-self: auto;
+}
+.con{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+section{
+	width: 80%;
+	margin: auto;
+}
+
+  article{
+    
+    width: 270px;
+    height:360px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #c8c8c8;
+    margin-bottom: 25px;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px rgb(189, 188, 188);
+    background-color: #eee;
+    *display:inline;
+      overflow:hidden;
+  }
+  
+  article:hover{
+    width:;
+    height:370px;
+    background-color:;
+    margin-right:;
+    transition: all 0.4s ease;
+  }
+  article i{
+    display: inline-block;
+    
+    color:grey;
+    font-size:180px;
+    text-align: center;
+    
+  }
+  .in i{
+    display: inline-block;
+    
+    color:rgb(50, 180, 197);
+    font-size:50px;
+    text-align: center;
+  }
+  .in i:hover{
+    display: inline-block;
+    
+    color:rgb(66, 255, 224);
+    font-size:50px;
+    text-align: center;
+  }
+  article i:hover{
+    display: inline-block;
+    
+    color:rgb(25, 155, 216);
+    font-size:180px;
+    text-align: center;
+    
+  }
+  article h3{
+    text-align: center;
+    color:grey;
+    font-weight:bold;
+  }
+  footer{
+    width:80%;
+    margin:auto;
+    background-color:grey;
+    text-align:center;
+    color:white;
+    position:fixed;
+    bottom:0px;
+    margin-left: 10%;
+  margin-right: 10%;
+  padding:8px;
+  }
+  article#cand{
+    
+    width: 270px;
+    height:560px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #c8c8c8;
+    margin-bottom: 25px;
+    padding: 1em;
+    border-radius: 3px;
+    box-shadow: 3px 3px 2px rgb(189, 188, 188);
+    background-color: #eee;
+    *display:inline;
+      overflow:hidden;
+  }
+  article#cand:hover{
+    
+    width: 270px;
+    height:560px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid #c8c8c8;
+    margin-bottom: 25px;
+    padding: 1em;
+    border-radius: 3px;
+    box-shadow: 3px 3px 2px rgb(189, 188, 188);
+    background-color: rgb(255, 251, 251);
+    *display:inline;
+      overflow:hidden;
+  }
+  article#cand i{
+    display: inline-block;
+    
+    color:rgb(81, 199, 179);
+    font-size:300px;
+    text-align: center;
+  
+    
+  }
+  article#cand h1{
+    text-align: center;
+    color:grey;
+    font-weight: bold;
+  }
+  section#profi {
+      width:60%;
+      margin:auto;
+  }
+  
+  article#profi {
+      margin-top:5%;
+      margin-left:15%;
+      width: 670px;
+    height:440px;
+    
+    display: inline-block;
+    vertical-align:center;
+    border: 1px solid #c8c8c8;
+    
+    padding: 1em;
+    border-radius: 3px;
+    box-shadow: 3px 3px 2px rgb(189, 188, 188);
+    background-color: rgb(255, 251, 251);
+    *display:inline;
+      overflow:hidden;
+  }
+  article#profi h1{
+    color:grey;
+    font-weight: bold;
+    text-align: left;
+    padding:13px;
+  }
+  .profi {
+      width:60%;
+      margin:auto;
+  }
+  
+  .profi {
+      margin-top:5%;
+      margin-left:15%;
+      width: 570px;
+    height:440px;
+    
+    display: inline-block;
+    vertical-align:center;
+    border: 1px solid #c8c8c8;
+    
+    padding: ;
+    border-radius: 3px;
+    box-shadow: 3px 3px 2px rgb(189, 188, 188);
+    background-color: rgb(255, 251, 251);
+    *display:inline;
+      overflow:;
+  }
+  .profi h1{
+    color:grey;
+    font-weight: bold;
+    text-align: left;
+    padding:;
+  }
+  section#cas {
+      width:60%;
+      margin:auto;
+  }
+  
+  article#cas {
+      margin-top:auto;
+      margin-left:15%;
+      width: auto;
+    height:auto;
+    
+    display: inline-block;
+    vertical-align:center;
+    border: 1px solid #c8c8c8;
+    
+    padding: 1em;
+    border-radius: 3px;
+    box-shadow: 3px 3px 2px rgb(189, 188, 188);
+    background-color: rgb(255, 251, 251);
+    *display:inline;
+      overflow:hidden;
+  }
+  article#cas i{
+    display: inline-block;
+    
+    color:rgb(81, 199, 179);
+    font-size:80px;
+    text-align: center;
+    
+    
+  }
+  article#cas table{
+    table-layout: auto;
+    width: 550px;
+    border:3px solid grey;
+    border-center
+  }
+  article#cas th,td{
+    text-align:center;
+  }
+  .caste{
+    background-color:rgb(15, 142, 192);
+    text-align: auto;
+    border-radius: 14px;
+    vertical-align: auto;
+    padding:10px 20px;
+    color:whitesmoke;
+    width:200px;
+    height:50px;
+    font-weight: bold;
+  }
+  .caste:hover{
+    background-color:rgb(51, 197, 255);
+    text-align: center;
+    border-radius: 5px;
+    vertical-align: auto;
+    padding:10px;
+  }
+  
+  section#complain{
+      width: 60%;
+      margin:auto;
+  }
+  
+  form#complain{
+      width: 80%;
+      alignment: center;
+  }
+  section#pay{
+      width:60%;
+      margin:auto;
+      alignment: left;
+  }
+  section#pay table{
+      border: 2px solid grey;
+      border-radius: 100px;
+      padding: 5px;
+      align-content: center;
+  }
+  
+
+
+
+  

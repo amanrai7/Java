@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  section{
+	width: 85%;
+	margin: auto;
+        background-color:white;
+}
+  article{
+	font-family:verdana;
+	width: 280px;
+	height:420px;
+	margin-right: 40px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #c8c8c8;
+	margin-bottom: 25px;
+	padding: 1em;
+	border-radius: 10px;
+	box-shadow: 6px 6px 4px #ccc;
+/*	//background-color: white;*/
+	display:inline;
+    zoom:1;overflow:hidden;
+}
+#secwrapper{
+	background-color: white; 
+	padding-top: 20px;
+	margin-left:100px; 
+}
